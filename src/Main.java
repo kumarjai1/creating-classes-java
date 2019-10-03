@@ -1,15 +1,10 @@
-// import Animal class
-
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+package src;// import src.Animal class
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //Instantiate new Animal
+        //Instantiate new src.Animal
         Animal animal = new Animal(4, 10,false, "Puppy");
 
         String name;
